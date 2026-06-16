@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.mockitotutorial.happyhotel.booking.Test01FirstMock
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.056 s <<< FAILURE! -- in com.mockitotutorial.happyhotel.booking.Test01FirstMock
+com.mockitotutorial.happyhotel.booking.Test01FirstMock.should_CalculateCorrectPrice_when_CorrectInput -- Time elapsed: 1.041 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <400.0> but was: <600.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)
+	at com.mockitotutorial.happyhotel.booking.Test01FirstMock.should_CalculateCorrectPrice_when_CorrectInput(Test01FirstMock.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

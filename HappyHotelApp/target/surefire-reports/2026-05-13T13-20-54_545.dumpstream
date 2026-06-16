@@ -1,0 +1,5 @@
+# Created at 2026-05-13T13:20:55.003
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Study 2\Mockito 5 for Java unit testing\HappyHotelApp\HappyHotelApp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
